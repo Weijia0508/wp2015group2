@@ -1,0 +1,246 @@
+@charset "UTF-8";
+/* Starter CSS for Flyout Menu */
+#cssmenu,
+#cssmenu ul,
+#cssmenu li #cssmenu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 1;
+}
+#cssmenu {
+	position:absolute;
+	top:350px;
+	left:0px;
+	width: 1350px;
+}
+#cssmenu ul {
+  zoom: 1;
+  background: #a7bc7a url(http://postimg.org/image/ay2xog0fh/) top left repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #839b4e;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu a,
+#cssmenu a:link,
+#cssmenu a:visited {
+  padding: 15px 20px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  text-shadow: 0 -1px 1px #586835;
+  border-right: 1px solid #839b4e;
+}
+#cssmenu a:hover {
+  color: #586835;
+  text-shadow: 0 1px 1px #bdcd9c;
+}
+#cssmenu li {
+  float: left;
+  border-right: 1px solid #b2c58b;
+}
+#cssmenu li:hover {
+  background: #9cb369 url(http://postimg.org/image/ay2xog0fh/) top left repeat;
+}
+#cssmenu li:first-child {
+  border-left: none;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
+}
+
+.topbanner{
+	left:0px;
+	background:transparent;
+}
+.topbanner img{
+	position:absolute;
+	width: 1350px; 
+	height: 350px;
+	top:0px;
+	left:0px;
+	opacity: 0.8; 
+}
+.banner{
+	position:absolute;
+	background:transparent;
+	left:500px;
+}
+.banner p{
+	text-align :center;
+	font-size: 100px;
+	font-family: Helvetica;
+	color:white;
+	top:120px;
+	text-shadow: 1px 1px 12px black, 0 0 25px black, 0 0 15px black;
+	
+}
+
+body{
+	width:auto;
+	background:url(http://www.zingerbug.com/Backgrounds/background_images/light_green_bamboo_wallpaper_tileable.jpg);
+}
+.bottombanner{
+	position:absolute;
+	background:transparent;
+	width:1350px;
+}
+
+.bottombanner p{
+	position:absolute;
+	font-size: 50px;
+	font-family: Helvetica;
+	color: white;
+	left:550px;
+	top:1450px;
+}
+.bottombanner a{
+	position:absolute;
+	font-size: 20px;
+	font-family: Helvetica;
+	color:yellow;
+	left:510px;
+	top:1600px;
+}
+
+.bottombanner img{
+	position:absolute;
+	width:1350px;
+	height:300px;
+		top:1400px;
+			left:0px;
+	
+}
+
+#sidebar { 
+	position:absolute;
+	top:400px;
+	left:0px;
+	width:150px; 
+	height:600px;
+	background-color:transparent;
+	min-height:400px; 
+	}
+#sidebar p{
+	text-align:center;
+	font-size:20px;
+	font-family: Helvetica;
+	text-shadow: 5px 5px 5px black;
+}
+#sidebar ul {
+  zoom: 1;
+  background: #a7bc7a url(http://postimg.org/image/ay2xog0fh/) top left repeat;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #839b4e;
+  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+}
+#sidebar ul:before {
+  content: '';
+  display: block;
+}
+#sidebar ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#sidebar li {
+  float: left;
+  border-right: 1px solid #b2c58b;
+}
+#sidebar li #sidebar span {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+  font-family: Helvetica;
+  line-height: 1;
+}
+#sidebar a:hover {
+  color: #586835;
+  text-shadow: 0 1px 1px #bdcd9c;
+}
+
+
+#wrapper {
+	width:1000px;
+	height:900px;
+	position:absolute;
+	top:400px;left:200px;
+	background-color:transparent;
+	overflow:hidden;
+}
+
+#wrapper p{
+	text-align:center;
+	font-size:40px;
+	font-family: Helvetica;
+	text-shadow: 5px 5px 5px black;
+}
+
+
+	#mask {
+		position:absolute;
+		top:0px;left:0px;
+		width:1000px;
+		height:900px;
+		overflow:hidden;
+		background-color:transparent;
+	}
+
+	.item {
+		position:relative;
+		top:0px;
+		width:1000px;
+		height:900px;
+		display:block;
+		background-color:transparent;
+		
+	}	
+	
+
+div.scroll {
+    background: white;
+    border: 3px orange dashed;
+    padding: 20px;
+    position: absolute;
+    width: 900px;
+    height:650px;
+    overflow-x :hidden ;
+	overflow-y:auto;
+	top:100px;
+	left:30px;
+}
+.scroll p {
+    width: 900px;
+    height: auto;
+	}
+	
+.scroll img{
+		position:relative;
+		width:140px;
+		height:130px;
+		border: 1px yellow solid;
+		margin: auto;
+		}
+
